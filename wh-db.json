@@ -1,0 +1,192 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "sqlServerName": {
+      "type": "string",
+      "metadata": {
+        "description": "The SQL Server name."
+      }
+    },
+    "elasticPoolName": {
+      "type": "string",
+      "metadata": {
+        "description": "The Elastic Pool name."
+      }
+    },
+    "elasticPooledition": {
+      "type": "string",
+      "defaultValue": "Standard",
+      "allowedValues": [
+        "Basic",
+        "Standard",
+        "Premium"
+      ],
+      "metadata": {
+        "description": "The Elastic Pool edition."
+      }
+    },
+    "elasticPoolDtu": {
+      "type": "int",
+      "metadata": {
+        "description": "The Elastic Pool DTU."
+      }
+    },
+    "elasticPooldatabaseDtuMin": {
+      "type": "int",
+      "defaultValue": 0,
+      "metadata": {
+        "description": "The Elastic Pool database DTU min."
+      }
+    },
+    "elasticPooldatabaseDtuMax": {
+      "type": "int",
+      "metadata": {
+        "description": "The Elastic Pool database DTU max."
+      }
+    },
+    "elasticPoolstorageMB": {
+      "type": "int",
+      "metadata": {
+        "description": "The Elastic Pool Storage in MB."
+      }
+    },
+    "sqldatabaseNames": {
+      "type": "array",
+      "metadata": {
+        "description": "The SQL Databases names."
+      }
+    },
+    "sqlDatabaseCollation": {
+      "type": "string",
+      "minLength": 1,
+      "defaultValue": "SQL_Latin1_General_CP1_CI_AS",
+      "metadata": {
+        "description": "The SQL database collation"
+      }
+    },
+    "sqlServerSecondaryName": {
+      "type": "string",
+      "metadata": {
+        "description": "The secondary BCP sql server name"
+      }
+    },
+    "sqlServerSecondaryLocation": {
+      "type": "string",
+      "metadata": {
+        "description": "The secondary BCP sql server Location"
+      }
+    },
+    "failoverGroupName": {
+      "type": "string",
+      "metadata": {
+        "description": "The failover group name"
+      }
+    },
+    "bcp": {
+      "type": "string",
+      "metadata": {
+        "description": "bcp"
+      },
+      "allowedValues": [
+        "True",
+        "False"
+      ]
+    },
+    "workspaceId": {
+            "type": "string",
+            "metadata": {
+                "description": "Log Analytics workspace ID for the Log Analytics workspace to which logs will be sent."
+            }
+        },
+    "logsRetentionDays": {
+            "type": "int",
+            "defaultValue": 0,
+            "metadata": {
+                "description": "Defines the number of logs rentetion days"
+            }
+    },
+    "tagValues": {
+      "type": "object"
+    }
+  },
+  "variables": {},
+  "resources": [
+    {
+      "type": "Microsoft.Sql/servers/elasticPools",
+      "apiVersion": "2014-04-01",
+      "name": "[concat(parameters('sqlServerName'), '/', parameters('elasticPoolName'))]",
+      "location": "[resourceGroup().location]",
+      "tags": "[parameters('tagValues')]",
+      "properties": {
+        "edition": "[parameters('elasticPoolEdition')]",
+        "dtu": "[parameters('elasticPoolDtu')]",
+        "databaseDtuMin": "[parameters('elasticPooldatabaseDtuMin')]",
+        "databaseDtuMax": "[parameters('elasticPooldatabaseDtuMax')]",
+        "storageMB": "[parameters('elasticPoolstorageMB')]"
+      }
+    },
+    {
+      "apiVersion": "2014-04-01",
+      "type": "Microsoft.Sql/servers/databases",
+      "name": "[concat(parameters('sqlServerName'), '/', parameters('sqldatabaseNames')[copyIndex()])]",
+      "location": "[resourceGroup().location]",
+      "tags": "[parameters('tagValues')]",
+      "dependsOn": [
+        "[concat('Microsoft.Sql/servers/', parameters('sqlServerName') ,'/elasticpools/', parameters('elasticPoolName'))]"
+      ],
+      "properties": {
+        "collation": "[parameters('sqlDatabaseCollation')]",
+        "requestedServiceObjectiveName": "ElasticPool",
+        "elasticPoolName": "[parameters('elasticPoolName')]"
+      },
+      "copy": {
+        "name": "addDatabasesInElasticPool",
+        "count": "[length(parameters('sqlDatabaseNames'))]"
+      }
+    },
+    {
+      "type": "Microsoft.Sql/servers/elasticPools",
+      "apiVersion": "2014-04-01",
+      "name": "[concat(parameters('sqlServerSecondaryName'), '/', parameters('elasticPoolName'))]",
+      "condition": "[equals(parameters('bcp'),'True')]",
+      "location": "[parameters('sqlServerSecondaryLocation')]",
+      "tags": "[parameters('tagValues')]",
+      "properties": {
+        "edition": "[parameters('elasticPoolEdition')]",
+        "dtu": "[parameters('elasticPoolDtu')]",
+        "databaseDtuMin": "[parameters('elasticPooldatabaseDtuMin')]",
+        "databaseDtuMax": "[parameters('elasticPooldatabaseDtuMax')]",
+        "storageMB": "[parameters('elasticPoolstorageMB')]"
+      }
+    },
+    {
+      "type": "Microsoft.Sql/servers/failoverGroups",
+      "apiVersion": "2015-05-01-preview",
+      "name": "[concat(parameters('sqlServerName'), '/', parameters('failoverGroupName'))]",
+      "condition": "[equals(parameters('bcp'),'True')]",
+      "tags": "[parameters('tagValues')]",
+      "properties": {
+        "readWriteEndpoint": {
+          "failoverPolicy": "Automatic",
+          "failoverWithDataLossGracePeriodMinutes": 60
+        },
+        "readOnlyEndpoint": {
+          "failoverPolicy": "Disabled"
+        },
+        "partnerServers": [
+          {
+            "id": "[resourceId('Microsoft.Sql/servers/', parameters('sqlServerSecondaryName'))]"
+          }
+        ],
+        "databases": [
+          "[resourceId('Microsoft.Sql/servers/databases', parameters('sqlServerName'), parameters('sqlDatabaseNames')[0])]"
+        ]
+      },
+      "dependsOn": [
+        "[resourceId('Microsoft.Sql/servers/databases', parameters('sqlServerName'), parameters('sqlDatabaseNames')[0])]"
+      ]
+    }
+  ],
+  "outputs": {}
+}
