@@ -1,0 +1,288 @@
+[
+    {
+        "value": "#FFFFFF",
+        "_name": "white"
+    },
+    {
+        "value": "#000000",
+        "_name": "black"
+    },
+
+    {
+        "value": "#47FFFFFF",
+        "_name": "whiteOpacity28"
+    },
+    {
+        "value": "#80FFFFFF",
+        "_name": "whiteOpacity50"
+    },
+    {
+        "value": "#99FFFFFF",
+        "_name": "whiteOpacity60"
+    },
+    {
+        "value": "#A6FFFFFF",
+        "_name": "whiteOpacity65"
+    },
+    {
+        "value": "#D9FFFFFF",
+        "_name": "whiteOpacity85"
+    },
+    {
+        "value": "#CCFFFFFF",
+        "_name": "whiteOpacity80"
+    },
+    {
+        "value": "#B3FFFFFF",
+        "_name": "whiteOpacity70"
+    },
+    {
+        "value": "#BFFFFFFF",
+        "_name": "whiteOpacity75"
+    },
+    {
+        "value": "#e53e44",
+        "_name": "red"
+    },
+    {
+        "value": "#bed7ce",
+        "_name": "lightTeal"
+    },
+    {
+        "value": "#B3000000",
+        "_name": "blackOpacity70"
+    },
+    {
+        "value": "#BF000000",
+        "_name": "blackOpacity75"
+    },
+    {
+        "value": "#47000000",
+        "_name": "blackOpacity28"
+    },
+    {
+        "value": "#80000000",
+        "_name": "blackOpacity50"
+    },
+    {
+        "value": "#33000000",
+        "_name": "blackOpacity20"
+    },
+
+    {
+        "value": "#6fc1b8",
+        "_name": "darkTeal"
+    },
+    {
+        "value": "#99add5d0",
+        "_name": "TealOpacity50"
+    },
+    {
+        "value": "#e3e3df",
+        "_name": "silver"
+    },
+    {
+        "value": "#78BAAA",
+        "_name": "welcomeScreenDarkBg"
+    },
+    {
+        "value": "#c5dad8",
+        "_name": "searchBg"
+    },
+    {
+        "value": "#668688",
+        "_name": "filterTextColor"
+    },
+    {
+        "value": "#e0eee7",
+        "_name": "lightTealOptacity10"
+    },
+    {
+        "value": "#f8f6f3",
+        "_name": "lightWhite"
+    },
+    {
+        "value": "#7d928e",
+        "_name": "lightTealOpacity50"
+    },
+    {
+        "value": "#5f7d928e",
+        "_name": "lightTealTransparent"
+    },
+    {
+        "value": "#e7e5e0",
+        "_name": "createClientbg"
+    },
+    {
+        "value": "#c1d7cd",
+        "_name": "tealLightShaddow"
+    },
+    {
+        "value": "#b6c5c2",
+        "_name": "tealLightDarkShaddow"
+    },
+    {
+        "value": "#B581FF",
+        "_name": "newStatusColor"
+    },
+    {
+        "value": "#f9e37f",
+        "_name": "quoteStatusColor"
+    },
+    {
+        "value": "#8bb0fe",
+        "_name": "activeStatusColor"
+    },
+    {
+        "value": "#87e16c",
+        "_name": "invoiceStatusColor"
+    },
+    {
+        "value": "#f47b7f",
+        "_name": "closedStatusColor"
+    },
+    {
+        "value": "#bababa",
+        "_name": "archiveStatusColor"
+    },
+    {
+        "value": "#4879a9",
+        "_name": "darkSkyBlue"
+    },
+    {
+        "value": "#cbe1d7",
+        "_name": "lightTealOpacity20"
+    },
+    {
+        "value": "#80b7a9",
+        "_name": "darkTealOpacity20"
+    },
+    {
+        "value": "#57585c",
+        "_name": "lightBlueOpacity10"
+    },
+    {
+        "value": "#38373e",
+        "_name": "lightBlack"
+    },
+    {
+        "value": "#7bc2b8",
+        "_name": "darkTealOpacity90"
+    },
+    {
+        "value": "#3e3d4b",
+        "_name": "lightBlackOpacity20"
+    },
+    {
+        "value": "#ffffff",
+        "_name": "tabselectedcolor"
+    },
+    {
+        "value": "#536481",
+        "_name": "grayText"
+    },
+    {
+        "value": "#fffffe",
+        "_name": "blackWhite"
+    },
+    {
+        "value": "#ebebe6",
+        "_name": "cararra"
+    },
+    {
+        "value": "#4b4a52",
+        "_name": "blackBlueDark"
+    },
+    {
+        "value": "#a5a29c",
+        "_name": "grayblackDark"
+    },
+    {
+        "value": "#605e61",
+        "_name": "blackBlueLight"
+    },
+    {
+        "value": "#38373d",
+        "_name": "closeDarkBlue"
+    },
+    {
+        "value": "#a3a3a0",
+        "_name": "closeDarkGray"
+    },
+    {
+        "value": "#597776",
+        "_name": "closetTeal"
+    },
+    {
+        "value": "#72b6aa",
+        "_name": "searchJobBG"
+    },
+    {
+        "value": "#3c3d49",
+        "_name": "jobGrayBackground"
+    },
+    {
+        "value": "#B372b6aa",
+        "_name": "searchJobBGOpacity75"
+    },
+    {
+        "value": "#90c1ab",
+        "_name": "tealDark"
+    },
+    {
+        "value": "#7ea9cd",
+        "_name": "lightBlue"
+    },
+    {
+        "value": "#5EA0FC",
+        "_name": "requestStatusColor"
+    },
+    {
+        "value": "#ff9029",
+        "_name": "quoteStatusColor"
+    },
+    {
+        "value": "#00FF62",
+        "_name": "invoiceStatusColor"
+    },
+    {
+        "value": "#727272",
+        "_name": "draftStatusColor"
+    },
+    {
+        "value": "#FF4343",
+        "_name": "closeStatusColor"
+    },
+    {
+        "value": "#ff3df9",
+        "_name": "activeStatusColor"
+    },
+    {
+        "value": "#4ede96",
+        "_name": "acceptColor"
+    },
+    {
+        "value": "#ff3e46",
+        "_name": "rejectColor"
+    },
+    {
+        "value": "#000000",
+        "_name": "unavailableStatusColor"
+    },
+    {
+        "value": "#ff3df9",
+        "_name": "newJobstatusColor"
+    },
+    {
+        "value": "#18B591",
+        "_name": "availableEventColor"
+    },
+    {
+        "value": "#18A4D8",
+        "_name": "bookedEventColor"
+    },
+    {
+        "value": "#B52A18",
+        "_name": "cancelEventColor"
+    }
+]

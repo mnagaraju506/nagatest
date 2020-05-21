@@ -1,0 +1,47 @@
+<ion-content class="bg-Landing">
+  <ion-grid class="font_semibold_nine">
+    <ion-row>
+      <ion-col float-left>
+        <ion-icon class="back-icon"
+          routerLink="/"
+          name="chevron-back-circle-outline"></ion-icon>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col text-center
+        size="12">
+        <img class="landing-home-img ion-text-center"
+          src="assets/images/BeeKeeLogo.png" />
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="12">
+        <ion-item color="none"
+          lines="none">
+          <video width="98%"
+            height="170"
+            poster="{{videoImageUrl}}"
+            controls="controls">
+            <source src="{{getMoreInfoVideoUrl}}"
+              type="video/mp4" />
+          </video>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <div class="text-align-justify"
+          innerHTML="{{allStaticDataForProfessional?.subTitle}}"></div>
+        <div class="get-more-info-pad"
+          innerHTML="{{allStaticDataForProfessional?.description}}"></div>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-button color="danger"
+          expand="block"
+          routerLink="/become-beekee-pro">{{appData.becomeBeekeePro}}</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

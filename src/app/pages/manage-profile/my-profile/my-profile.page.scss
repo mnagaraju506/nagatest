@@ -1,0 +1,37 @@
+.profile-thumbnail {
+    position: relative;
+    display: inline-block;
+}
+.profile-thumbnail img {
+    width: 50px;
+    height: 50px;
+}
+.profile-thumbnail span img {
+    position: absolute;
+    width: 20px !important;
+    height: 20px !important;
+    top: calc(80% - 10px);
+    left: calc(80% - 5px);
+}
+.btnPosition {
+    height: 2rem;
+    margin-top: 0.8rem;
+}
+
+.dots {
+    padding-top: 1.75rem;
+    height: 38px;
+}
+
+.label-text {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 14px;
+}
+.txtEntryBgColor {
+    height: 40px !important;
+}
+ion-input {
+    font-size: 14px;
+    padding-bottom: 13px !important;
+}

@@ -1,0 +1,136 @@
+<ion-header [translucent]="true">
+  <ion-toolbar class="header-background-color">
+    <ion-buttons slot="start">
+      <ion-menu-button menu="leftMenu" autohide="false">
+        <ion-icon class="icon-white" name="notifications-outline"></ion-icon>
+      </ion-menu-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-menu-button menu="rightMenu" autohide="false">
+        <ion-icon class="icon-white" name="person-circle-outline"></ion-icon>
+      </ion-menu-button>
+    </ion-buttons>
+    <ion-title class="ion-text-center">
+      <img class="dashboard-title-img img-BeeKee-circle" routerLink='/dashboard' />
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content class="default-background-color" padding>
+  <form [formGroup]="frmProfilePage" novalidate>
+    <ion-grid>
+      <ion-row>
+        <ion-col size="12" class="ion-text-center">
+          <div class="profile-thumbnail">
+            <img src="assets/icon/ic_user_round.png">
+            <span>
+              <img src="assets/icon/ic_plus_icon.png">
+            </span>
+          </div>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="12" class="ion-text-center">
+          My Profile
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="12">
+          <ion-label class="label-text" position="floating">{{appData.businessName}}</ion-label>
+          <ion-item class="txtEntryBgColor">
+            <ion-input formControlName="businessName" clearInput="true" inputmode="text" required="true">
+            </ion-input>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="12">
+          <ion-label class="label-text" position="floating">{{appData.billaddress}}</ion-label>
+          <ion-item class="txtEntryBgColor">
+            <ion-input formControlName="billaddress" clearInput="true" inputmode="text" required="true">
+            </ion-input>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="6">
+          <ion-label class="label-text" position="floating">{{appData.firstNameStar}}</ion-label>
+          <ion-item class="txtEntryBgColor">
+            <ion-input formControlName="firstName" clearInput="true" inputmode="text" required="true">
+            </ion-input>
+          </ion-item>
+        </ion-col>
+        <ion-col size="6">
+          <ion-label class="label-text" position="floating">{{appData.lastNameStar}}</ion-label>
+          <ion-item class="txtEntryBgColor">
+            <ion-input formControlName="lastName" clearInput="true" inputmode="text" required="true">
+            </ion-input>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="6">
+          <ion-label class="label-text" position="floating">{{appData.emailStar}}</ion-label>
+          <ion-item class="txtEntryBgColor">
+            <ion-input formControlName="email" clearInput="true" inputmode="text">
+            </ion-input>
+            <div *ngIf="(formControls.controls.email.errors && formControls.controls.email.touched)"
+              class="alertdanger">
+              <div *ngIf="formControls.controls.email.errors.invalidEmail">
+                {{appData.invalidEmail}}</div>
+            </div>
+          </ion-item>
+        </ion-col>
+        <ion-col size="6">
+          <ion-label class="label-text" position="floating">{{appData.phoneStar}}</ion-label>
+          <ion-item class="txtEntryBgColor">
+            <ion-input formControlName="phone" clearInput="true" type="tel">
+            </ion-input>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="6">
+          <ion-label class="label-text" position="floating">{{appData.aptHash}}</ion-label>
+          <ion-item class="txtEntryBgColor">
+            <ion-input formControlName="apt" clearInput="true" inputmode="text">
+            </ion-input>
+          </ion-item>
+        </ion-col>
+        <ion-col size="6">
+          <ion-label class="label-text" position="floating">{{appData.zipCodeStar}}</ion-label>
+          <ion-item class="txtEntryBgColor">
+            <ion-input formControlName="zipCode" (change)='onZipcodeChange($event.target.value)' clearInput="true"
+              type="tel">
+            </ion-input>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="6">
+          <ion-label class="label-text" position="floating">{{appData.cityStar}}</ion-label>
+          <ion-item class="txtEntryBgColor">
+            <ion-input formControlName="city" clearInput="true" inputmode="text" required="true">
+            </ion-input>
+          </ion-item>
+        </ion-col>
+        <ion-col size="6">
+          <ion-label class="label-text" position="floating">{{appData.stateStart}}</ion-label>
+          <ion-item class="txtEntryBgColor">
+            <ion-input formControlName="state" clearInput="true" type="tel">
+            </ion-input>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col float-left><img src="assets/icon/ic_left_arrow_gray.png" class="btnPosition"></ion-col>
+        <ion-col size="1"><img src="assets/icon/ic_gray_dot_filled.png" class="dots"></ion-col>
+        <ion-col size="1"><img src="assets/icon/ic_white_dot_unfilled.png" class="dots"></ion-col>
+        <ion-col size="1"><img src="assets/icon/ic_white_dot_unfilled.png" class="dots"></ion-col>
+        <ion-col class="text-Right"><img src="assets/icon/ic_right_arrow_gray.png" class="btnPosition"
+            (click)='saveProfile(userDetails)'>
+        </ion-col>
+
+      </ion-row>
+    </ion-grid>
+  </form>
+</ion-content>

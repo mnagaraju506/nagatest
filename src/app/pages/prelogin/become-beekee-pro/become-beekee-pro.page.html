@@ -1,0 +1,122 @@
+<ion-content class="bg-Landing"
+  padding>
+  <ion-grid>
+    <ion-row>
+      <ion-col float-left>
+        <ion-icon class="back-icon"
+          routerLink="/get-more-info"
+          name="chevron-back-circle-outline"></ion-icon>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col text-center
+        size="12">
+        <img class="landing-home-img ion-text-center"
+          src="assets/images/BeeKeeLogo.png" />
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="12">
+        <ion-item color="none"
+          lines="none">
+          <span fixed
+            class="pad-top-4 text-align-justify">{{appData.becomeBeekeeProDesc}}
+          </span>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <form [formGroup]="frmBecomeBKPro"
+    novalidate>
+    <ion-grid>
+      <ion-row>
+        <ion-col size="6">
+          <ion-item>
+            <ion-label color="ligh-grey"
+              position="floating">{{appData.firstNameStar}}</ion-label>
+            <ion-input formControlName="firstName"
+              clearInput="true"
+              inputmode="text"
+              required="true">
+            </ion-input>
+            <!-- <div *ngIf="(formControls.controls.firstName.errors && formControls.controls.firstName.touched)">
+              <div *ngIf="formControls.controls.firstName.errors"
+                class="alertdanger">
+                <div *ngIf="formControls.controls.firstName.errors.required">
+                  {{appData.requiredFirstName}}</div>
+              </div>
+            </div> -->
+          </ion-item>
+        </ion-col>
+        <ion-col size="6">
+          <ion-item>
+            <ion-label color="ligh-grey"
+              position="floating">{{appData.lastNameStar}}</ion-label>
+            <ion-input formControlName="lastName"
+              clearInput="true"
+              inputmode="text"
+              required="true">
+            </ion-input>
+            <!-- <div *ngIf="(formControls.controls.lastName.errors && formControls.controls.lastName.touched)">
+              <div *ngIf="formControls.controls.lastName.errors"
+                class="alertdanger">
+                <div *ngIf="formControls.controls.lastName.errors.required">
+                  {{appData.requiredLastName}}</div>
+              </div>
+            </div> -->
+          </ion-item>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="12">
+          <ion-item>
+            <ion-label color="ligh-grey"
+              position="floating">{{appData.emailStar}}</ion-label>
+            <ion-input formControlName="email"
+              clearInput="true"
+              inputmode="text"
+              required="true">
+            </ion-input>
+            <div *ngIf="(formControls.controls.email.errors && formControls.controls.email.touched)"
+              class="alertdanger">
+              <!-- <div *ngIf="formControls.controls.email.errors.required">
+                  {{appData.emailRequired}}</div> -->
+              <div *ngIf="formControls.controls.email.errors.invalidEmail">
+                {{appData.invalidEmail}}</div>
+            </div>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="12">
+          <span></span>
+          <ion-item>
+            <ion-label color="ligh-grey"
+              position="floating">{{appData.phoneOptional}}</ion-label>
+            <ion-input formControlName="phone"
+              clearInput="true"
+              type="tel">
+            </ion-input>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="6">
+          <ion-button routerLink="/get-more-info"
+            color="danger"
+            expand="block"
+            type="submit">{{appData.cancel}}
+          </ion-button>
+        </ion-col>
+        <ion-col size="6">
+          <ion-button (click)="onBecomeBKPro()"
+            color="danger"
+            expand="block"
+            type="submit"
+            [disabled]="!frmBecomeBKPro.valid">{{appData.submit}}
+          </ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </form>
+</ion-content>

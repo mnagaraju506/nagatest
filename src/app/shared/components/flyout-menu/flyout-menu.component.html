@@ -1,0 +1,48 @@
+<ion-split-pane contentId="mainContent">
+    <ion-menu [menuId]="menu.id" contentId="mainContent" [side]="menu.side" *ngFor="let menu of menus">
+        <ion-header>
+            <ion-toolbar>
+                <!--<ion-title>Admin Menu</ion-title>-->
+                <ion-item>
+                    <ion-avatar slot="start">
+                        <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y">
+                    </ion-avatar>
+                    <ion-label class="color-white">
+                        <h3>Name</h3>
+                        <p class="color-white">description</p>
+                    </ion-label>
+                </ion-item>
+            </ion-toolbar>
+        </ion-header>
+        <ion-content>
+            <ion-list *ngFor="let group of menu.groups">
+                <!---->
+                <ion-list-header (click)="toggleAccordion(group)">
+                    <ion-label>
+                        <span class="font_semibold_1point2">{{group.name}}</span>
+                    </ion-label>
+                    <ion-button color="dark">
+                        <ion-icon [name]="group.isExpand ? 'chevron-up-outline' : 'chevron-down-outline'">
+                        </ion-icon>
+                    </ion-button>
+                </ion-list-header>
+                <!--Must specify menu, otherwise will toggle menu above-->
+                <div *ngIf="group.isExpand">
+                    <ion-menu-toggle [menu]="menu.id" auto-hide="false"
+                        *ngFor="let item of group.items; let last = last;">
+                        <ion-item [routerDirection]="'root'" [routerLink]="item.title == 'LogOut' ? [] : [item.url]"
+                            (click)="item.title == 'LogOut' ? logout() : ''"
+                            [lines]="last ? 'none' : ''">
+                            <!--<ion-icon slot="start" [name]="p.icon"></ion-icon>-->
+                            <ion-label>
+                                {{item.title}}
+                            </ion-label>
+                        </ion-item>
+                    </ion-menu-toggle>
+                </div>
+                <!---->
+            </ion-list>
+        </ion-content>
+    </ion-menu>
+    <ion-router-outlet main id="mainContent"></ion-router-outlet>
+</ion-split-pane>

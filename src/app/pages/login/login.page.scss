@@ -1,0 +1,49 @@
+ion-button[btnsignIn] {     
+    --background: var(--colorTeal);
+    color: #ffffff;   
+    text-transform: none;
+}
+ion-label[slot=end] {
+    margin: 0 0.1em 0 0em;
+}
+ion-checkbox{
+    background: var(--colorTeal);
+     border-width: 1px !important;
+     border-style: solid !important;
+     border-radius: 4px;
+     border-color : var(--colorTeal);
+     --height : 25px;
+     --width: 25px;
+     --checkmark-color:#ffffff;
+     --background-checked:var(--colorTeal);
+     --border-color: var(--colorTeal);
+     --border-color-checked :var(--colorTeal);
+   }
+
+   .font_bold_five {
+    font-family: 'Montserrat-Bold';
+    color: var(--colorDarkGray);
+    font-size: 0.5em;
+  }
+  .font_semibold_six {
+    font-family: 'Montserrat-SemiBold';
+    color: var(--colorDarkGray);
+    font-size: 0.7em;
+  }
+  .font_light_six{
+    font-family: 'Montserrat-Light';
+    color: var(--colorGray);
+    font-size: 0.6em;
+  }
+  .check-box-circle {
+    background: #ffffff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border-color: white;
+    border-style:solid;
+    border-width : 3px;
+}
+.check {
+  background :  var(--colorTeal) !important;
+}

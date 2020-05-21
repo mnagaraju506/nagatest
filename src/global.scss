@@ -1,0 +1,265 @@
+/*
+ * App Global CSS
+ * ----------------------------------------------------------------------------
+ * Put style rules here that you want to apply globally. These styles are for
+ * the entire app and not just one component. Additionally, this file can be
+ * used as an entry point to import other CSS/Sass files to be included in the
+ * output CSS.
+ * For more information on global stylesheets, visit the documentation:
+ * https://ionicframework.com/docs/layout/global-stylesheets
+ */
+
+/* Core CSS required for Ionic components to work properly */
+@import '~@ionic/angular/css/core.css';
+
+/* Basic CSS for apps built with Ionic */
+@import '~@ionic/angular/css/normalize.css';
+@import '~@ionic/angular/css/structure.css';
+@import '~@ionic/angular/css/typography.css';
+@import '~@ionic/angular/css/display.css';
+
+/* Optional CSS utils that can be commented out */
+@import '~@ionic/angular/css/padding.css';
+@import '~@ionic/angular/css/float-elements.css';
+@import '~@ionic/angular/css/text-alignment.css';
+@import '~@ionic/angular/css/text-transformation.css';
+@import '~@ionic/angular/css/flex-utils.css';
+
+.bg-Landing {
+    --background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)),
+        url('./assets/images/signInBg.png') 100% 100%/100% 100% no-repeat;
+    background-size: cover;
+}
+
+.bg-dashboard {
+    --background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)),
+        url('./assets/images/ic_dashboradBG.png') 100% 100%/100% 100% no-repeat;
+    background-size: cover;
+}
+.bg-dashboard-tiles {
+    background: var(--colorthemeBackground);
+    border-radius: 5px;
+    height: 100px;
+    width: 200px;
+    text-align: center;
+    padding-top: 15px;
+}
+.bg-tiles-left-animation-row1 {
+    -webkit-animation: slideInLeft 0.25s;
+    animation: slideInLeft 0.25s;
+}
+.bg-tiles-left-animation-row2 {
+    -webkit-animation: slideInLeft 0.5s;
+    animation: slideInLeft 0.5s;
+}
+.bg-tiles-left-animation-row3 {
+    -webkit-animation: slideInLeft 0.75s;
+    animation: slideInLeft 0.75s;
+}
+.bg-tiles-right-animation-row1 {
+    -webkit-animation: slideInRight 0.25s;
+    animation: slideInRight 0.25s;
+}
+.bg-tiles-right-animation-row2 {
+    -webkit-animation: slideInRight 0.5s;
+    animation: slideInRight 0.5s;
+}
+.bg-tiles-right-animation-row3 {
+    -webkit-animation: slideInRight 0.75s;
+    animation: slideInRight 0.75s;
+}
+.dashboard-tile-img {
+    height: 45px;
+    width: 100%;
+}
+
+.tile-padding-top {
+    padding-top: 0.7em;
+}
+
+.my-grid {
+    height: 100% !important;
+}
+
+.parent-row {
+    height: 100% !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.pad-top-3 {
+    padding-top: 3px;
+}
+
+.dashboard-grid-top {
+    margin-top: 8%;
+}
+
+.header-background-color {
+    --background: var(--colorThemeColor);
+}
+
+.icon-white {
+    color: white !important;
+    --background: #fff;
+}
+
+.p-label {
+    color: black !important;
+    font-size: 14px !important;
+    padding-top: 3px !important;
+}
+
+.dashboard-title-img {
+    width: 18% !important;
+    padding-top: 5px !important;
+}
+.img-BeeKee-circle {
+    content: url('/assets/icon/ic_beekeeCircle.png');
+}
+.img-Client {
+    content: url('/assets/icon/ic_client.png');
+}
+.img-TabSearchSelected {
+    content: url('/assets/icon/ic_tab_search_selected.png');
+}
+.img-Invoice {
+    content: url('/assets/icon/ic_invoice.png');
+}
+.img-Quotes {
+    content: url('/assets/icon/ic_quotes.png');
+}
+.img-Request {
+    content: url('/assets/icon/ic_request.png');
+}
+.img-Dashboard {
+    content: url('/assets/icon/ic_dashboard.png');
+}
+.img-Edit {
+    content: url('/assets/icon/ic_edit_icon.png');
+}
+.img-FreeTrial {
+    content: url('/assets/icon/ic_freeTrial.png');
+}
+
+.default-background-color {
+    --background: var(--colorthemeBackground);
+}
+
+/*Alerts Css */
+.alert {
+    font-size: 80%;
+    margin-bottom: 20px;
+    display: inline-block;
+    animation: 2s alertAnim forwards;
+    padding: 0.6rem !important;
+    margin-bottom: 0rem !important;
+}
+
+.alertdanger {
+    color: #dc3545;
+    font-size: 80%;
+    margin-bottom: 20px;
+    display: inline-block;
+    animation: 2s alertAnim forwards;
+    padding: 0rem !important;
+    margin-bottom: 0rem !important;
+}
+
+/* Text alignment CSS*/
+.textCenter {
+    text-align: center;
+}
+
+/* Fonts  CSS*/
+
+.font_Regular_point8 {
+    font-family: 'Montserrat-Regular';
+    color: var(--colorDarkGray);
+    font-size: 0.8em;
+}
+.font_bold_five {
+    font-family: 'Montserrat-Bold';
+    color: var(--colorDarkGray);
+    font-size: 0.5em;
+}
+.font_semibold_six {
+    font-family: 'Montserrat-SemiBold';
+    color: var(--colorDarkGray);
+    font-size: 0.7em;
+}
+.font_light_six {
+    font-family: 'Montserrat-Light';
+    color: var(--colorGray);
+    font-size: 0.6em;
+}
+.font_semibold_1point2 {
+    font-family: 'Montserrat-SemiBold';
+    color: var(--colorDarkGray);
+    font-size: 1.2em;
+}
+.back-icon {
+    zoom: 2;
+    color: black;
+}
+
+.item-trns {
+    border-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+    color: black;
+}
+
+.margin-right-5 {
+    margin-right: 5px;
+}
+
+.pad-top-4 {
+    padding-top: 4.5vh;
+}
+
+.bg-default-color {
+    background: #aacdd0 !important;
+}
+
+.color-white {
+    color: white;
+}
+
+.get-more-info-pad {
+    ul {
+        padding-left: 15px;
+    }
+    li {
+        padding-bottom: 6px;
+    }
+}
+
+/*Text box CSS*/
+.txtEntryBgColor {
+    --background: var(--colorEntryBgColor);
+}
+
+/*Text Alignments*/
+.text-Right {
+    text-align: right;
+}
+.mr-3 {
+    margin-right: 0.3em;
+}
+
+.text-align-justify {
+    text-align: justify;
+}
+.img-BeeKee-size {
+    padding-top: 5px;
+    height: 44px;
+}
+.pad-left-20{
+    padding-left: 20px;
+}
+.pad-right-20{
+    padding-right: 20px;
+}
+.full-width{
+    width: 100%;
+}

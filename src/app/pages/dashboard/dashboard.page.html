@@ -1,0 +1,97 @@
+<ion-header [translucent]="true">
+    <ion-toolbar class="header-background-color">
+        <ion-buttons slot="start">
+            <ion-menu-button menu="leftMenu" autohide="false">
+                <ion-icon class="icon-white" name="notifications-outline"></ion-icon>
+            </ion-menu-button>
+        </ion-buttons>
+
+        <ion-buttons slot="end">
+            <ion-menu-button menu="rightMenu" autohide="false">
+                <ion-icon class="icon-white" name="person-circle-outline"></ion-icon>
+            </ion-menu-button>
+        </ion-buttons>
+        <ion-title class="ion-text-center">
+            <img class="dashboard-title-img img-BeeKee-circle" />
+        </ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="bg-dashboard">
+    <ion-grid>
+        <ion-row>
+            <ion-col>
+                <ion-label>
+                    <h1 class="ion-text-center font_semibold_six"><span
+                            class="borderBottomTeal">{{appData.letsGo}}</span></h1>
+                    <p class="ion-text-center font_semibold_six">{{appData.welcomeText}}</p>
+                    <p class="ion-text-center font_semibold_six">{{appData.welcomeTextDesc}}</p>
+                </ion-label>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+    <ion-grid class="dashboard-grid-top">
+        <ion-row>
+            <ion-col size="1">
+            </ion-col>
+            <ion-col text-center size="4" routerLink="/clients" routerDirection="forward"
+                class=" animated bg-dashboard-tiles bg-tiles-left-animation-row1  square" #myElementRef>
+                <ion-img class="dashboard-tile-img img-Client"></ion-img>
+                <ion-label>
+                    <p class="p-label">Clients </p>
+                </ion-label>
+            </ion-col>
+            <ion-col size="2">
+            </ion-col>
+            <ion-col text-center size="4" routerLink="/leads" routerDirection="forward"
+                class="animated bg-dashboard-tiles bg-tiles-right-animation-row1">
+                <ion-img class="dashboard-tile-img img-TabSearchSelected"></ion-img>
+                <ion-label>
+                    <p class="p-label">Job Leads </p>
+                </ion-label>
+            </ion-col>
+            <ion-col size="1">
+            </ion-col>
+        </ion-row>
+        <ion-row class="tile-padding-top">
+            <ion-col size="1">
+            </ion-col>
+            <ion-col text-center size="4" class="animated bg-dashboard-tiles bg-tiles-left-animation-row2">
+                <ion-img class="dashboard-tile-img img-Invoice"></ion-img>
+                <ion-label>
+                    <p class="p-label">Invoices</p>
+                </ion-label>
+            </ion-col>
+            <ion-col size="2">
+            </ion-col>
+            <ion-col text-center size="4" class=" animated bg-dashboard-tiles bg-tiles-right-animation-row2">
+                <ion-img class="dashboard-tile-img img-Quotes"></ion-img>
+                <ion-label>
+                    <p class="p-label">Quotes </p>
+                </ion-label>
+            </ion-col>
+            <ion-col size="1">
+            </ion-col>
+        </ion-row>
+        <ion-row class="tile-padding-top">
+            <ion-col size="1">
+            </ion-col>
+            <ion-col text-center size="4" class="animated bg-dashboard-tiles bg-tiles-left-animation-row3">
+                <ion-img class="dashboard-tile-img img-Request"></ion-img>
+                <ion-label>
+                    <p class="p-label">Messages</p>
+                </ion-label>
+            </ion-col>
+            <ion-col size="2">
+            </ion-col>
+            <ion-col text-center size="4" class="animated bg-dashboard-tiles bg-tiles-right-animation-row3">
+                <ion-img class="dashboard-tile-img img-Dashboard"></ion-img>
+                <ion-label>
+                    <p class="p-label">My Jobs</p>
+                </ion-label>
+            </ion-col>
+            <ion-col size="1">
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+</ion-content>

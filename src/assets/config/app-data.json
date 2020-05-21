@@ -1,0 +1,1555 @@
+[
+    {
+        "value": "BeeKee",
+        "name": "launchScreenTitle"
+    },
+    {
+        "value": "Username",
+        "name": "username"
+    },
+    {
+        "value": "Password",
+        "name": "password"
+    },
+    {
+        "value": "Don't have an account?",
+        "name": "dontHaveAccount"
+    },
+    {
+        "value": "Sign Up Now",
+        "name": "signUpNow"
+    },
+    {
+        "value": "Try Beekee Pro for 30 days, then \n$30/month.",
+        "name": "trialPeriodDesc"
+    },
+    {
+        "value": "Sign Up",
+        "name": "signUp"
+    },
+    {
+        "value": "Already have an account?",
+        "name": "alredyHaveAccount"
+    },
+
+    {
+        "value": "START YOUR 30-DAY FREE TRIAL",
+        "name": "trailPeriod"
+    },
+    {
+        "value": "and",
+        "name": "andText"
+    },
+    {
+        "value": "Next Step",
+        "name": "nextStep"
+    },
+    {
+        "value": "Name",
+        "name": "name"
+    },
+    {
+        "value": "Phone",
+        "name": "phone"
+    },
+    {
+        "value": "No Invite Code, No Problem. You can Still Use All The Amazing Benefits Of BeeKee Pro, Today.",
+        "name": "noInviteCodeTitle"
+    },
+    {
+        "value": "Simply Enter Either Your Email Address Or Phone Number Below To Get Started, Now!",
+        "name": "noInviteCodeSubTitle"
+    },
+
+    {
+        "value": "No Invite Code? Tap Here:",
+        "name": "noInviteCode"
+    },
+    {
+        "value": "Enter Invite Code",
+        "name": "enterInviteCode"
+    },
+    {
+        "value": "Please Enter Your Invite Code Below.",
+        "name": "inviteCodeHeader"
+    },
+    {
+        "value": "Enter An Email Address",
+        "name": "enterEmailAddress"
+    },
+    {
+        "value": "Enter An Email Address *",
+        "name": "enterEmailAddressStar"
+    },
+    {
+        "value": "Create A Password",
+        "name": "createPassword"
+    },
+    {
+        "value": "Create A Password *",
+        "name": "createPasswordStar"
+    },
+    {
+        "value": "Confirm Password",
+        "name": "confirmPassword"
+    },
+    {
+        "value": "Confirm Password *",
+        "name": "confirmPasswordStar"
+    },
+    {
+        "value": "First Name",
+        "name": "firstname"
+    },
+
+    {
+        "value": "Last Name",
+        "name": "lastname"
+    },
+
+    {
+        "value": "Enter",
+        "name": "enter"
+    },
+    {
+        "value": "Thank You For Joining \nBeeKee Pro!",
+        "name": "thankyouForJoining"
+    },
+    {
+        "value": "Let's Get Started Setting Up Your Account That Will Allow You To Experience All The Amazing Benefits BeeKee Pro Has to Offer!",
+        "name": "joiningDesc"
+    },
+
+    {
+        "value": "Clients",
+        "name": "clients"
+    },
+    {
+        "value": "Search For Jobs",
+        "name": "searchForJob"
+    },
+    {
+        "value": "Invoices",
+        "name": "invoices"
+    },
+    {
+        "value": "Quotes",
+        "name": "quotes"
+    },
+    {
+        "value": "Messages",
+        "name": "messages"
+    },
+    {
+        "value": "Dashboard",
+        "name": "dashboard"
+    },
+    {
+        "value": "Upgrade To BeeKee Pro, Now!",
+        "name": "upgradeToBeekeePro"
+    },
+    {
+        "value": "Days \n Remaining",
+        "name": "dayRemainings"
+    },
+    {
+        "value": "Welcome To BeeKee Pro!",
+        "name": "welcomeBeekee"
+    },
+    {
+        "value": "Let's get started on your profile so we can help match you with the best possible clients, now!",
+        "name": "welcomeBeekeeDesc"
+    },
+    {
+        "value": "Maybe Later",
+        "name": "maybelater"
+    },
+    {
+        "value": "Join Now",
+        "name": "joinNow"
+    },
+    {
+        "value": "Manage",
+        "name": "manage"
+    },
+    {
+        "value": "My Profile",
+        "name": "myprofile"
+    },
+    {
+        "value": "Photos & Videos",
+        "name": "photoandVideo"
+    },
+    {
+        "value": "Work Hours",
+        "name": "workHours"
+    },
+    {
+        "value": "Services",
+        "name": "services"
+    },
+    {
+        "value": "Marketing",
+        "name": "marketing"
+    },
+    {
+        "value": "E-Flyer",
+        "name": "eflyer"
+    },
+    {
+        "value": "Text",
+        "name": "text"
+    },
+    {
+        "value": "Social Media",
+        "name": "socialMedia"
+    },
+    {
+        "value": "Payment Processing",
+        "name": "paymentProcessing"
+    },
+    {
+        "value": "Account Info",
+        "name": "accountInfo"
+    },
+    {
+        "value": "Payments",
+        "name": "payments"
+    },
+    {
+        "value": "Billings",
+        "name": "billings"
+    },
+    {
+        "value": "Support",
+        "name": "support"
+    },
+    {
+        "value": "Log Out",
+        "name": "logout"
+    },
+    {
+        "value": "Terms & Conditions",
+        "name": "termsAndConditions"
+    },
+    {
+        "value": "Rate us",
+        "name": "rateUs"
+    },
+    {
+        "value": "App Version",
+        "name": "appVesrion"
+    },
+    {
+        "value": "Current Location",
+        "name": "currentLocation"
+    },
+
+    {
+        "value": "Billing Address:",
+        "name": "BillingAddress"
+    },
+    {
+        "value": "Email:",
+        "name": "emailWithColon"
+    },
+
+    {
+        "value": "Services",
+        "name": "services"
+    },
+    {
+        "value": "Select A Service You Provide:",
+        "name": "selectServiceProvider"
+    },
+    {
+        "value": "Select Your Hours:",
+        "name": "selectYourHours"
+    },
+    {
+        "value": "Tell People About Your Business",
+        "name": "tellPeopleAboutBusiness"
+    },
+    {
+        "value": "You can add another service later in the \"Manage\" tab",
+        "name": "youcanAddAnotheService"
+    },
+    {
+        "value": "Popular Options:",
+        "name": "popularOptionsColon"
+    },
+    {
+        "value": "Monday - Friday",
+        "name": "mondayToFriday"
+    },
+    {
+        "value": "Weekends",
+        "name": "weekends"
+    },
+    {
+        "value": "7 Days A Week",
+        "name": "sevenDaysWeek"
+    },
+    {
+        "value": "8:00 a.m. - 4:00 p.m.",
+        "name": "eightToFour"
+    },
+    {
+        "value": "9:00 a.m. - 5:00 p.m.",
+        "name": "nineToFive"
+    },
+    {
+        "value": "Anytime",
+        "name": "anyTime"
+    },
+    {
+        "value": "Select all that apply:",
+        "name": "selectAllThatApply"
+    },
+    {
+        "value": "Mon.",
+        "name": "mon"
+    },
+    {
+        "value": "Tue.",
+        "name": "tue"
+    },
+    {
+        "value": "Wed.",
+        "name": "wed"
+    },
+    {
+        "value": "Thurs.",
+        "name": "thu"
+    },
+    {
+        "value": "Fri.",
+        "name": "fri"
+    },
+    {
+        "value": "Sat.",
+        "name": "sat"
+    },
+    {
+        "value": "Sun.",
+        "name": "sun"
+    },
+    {
+        "value": "Go Back",
+        "name": "goBack"
+    },
+    {
+        "value": "Done",
+        "name": "done"
+    },
+    {
+        "value": "9:00 AM",
+        "name": "nineAM"
+    },
+    {
+        "value": "5:00 PM",
+        "name": "fivePM"
+    },
+    {
+        "value": "8:00 AM",
+        "name": "eightAM"
+    },
+    {
+        "value": "4:00 PM",
+        "name": "fourPM"
+    },
+    {
+        "value": "Go Explore The App",
+        "name": "goExploreApp"
+    },
+    {
+        "value": "You can fill out your information anytime. Just tap the profile icon in the top right corner.",
+        "name": "goExploreAppDesc1"
+    },
+    {
+        "value": "Remember: You will need to fill out your profile information in order to access all of the tools BeeKee Pro has to offer!",
+        "name": "goExploreAppDesc2"
+    },
+    {
+        "value": "Calendar",
+        "name": "calendar"
+    },
+    {
+        "value": "Request",
+        "name": "request"
+    },
+    {
+        "value": "Client",
+        "name": "client"
+    },
+    {
+        "value": "Prospect",
+        "name": "prospect"
+    },
+    {
+        "value": "Select A Job Radius:",
+        "name": "selectJobRadius"
+    },
+    {
+        "value": "Got It",
+        "name": "gotIt"
+    },
+    {
+        "value": "Go Explore The App",
+        "name": "gotExploreApp"
+    },
+    {
+        "value": "Create New Client",
+        "name": "createNewClient"
+    },
+    {
+        "value": "View All Clients",
+        "name": "viewAllClient"
+    },
+    {
+        "value": "Recents",
+        "name": "recents"
+    },
+    {
+        "value": "Search By Client Name",
+        "name": "searchText"
+    },
+    {
+        "value": "Client Notes:",
+        "name": "clientNotesColon"
+    },
+    {
+        "value": "Mobile Number",
+        "name": "clientMobileNumber"
+    },
+    {
+        "value": "Username",
+        "name": "username"
+    },
+    {
+        "value": "Email Address",
+        "name": "emailAddress"
+    },
+    {
+        "value": "Password",
+        "name": "password"
+    },
+    {
+        "value": "Phone *",
+        "name": "phoneStar"
+    },
+    {
+        "value": "Zip Code",
+        "name": "zipCode"
+    },
+    {
+        "value": "Zip Code:",
+        "name": "zipCodeColon"
+    },
+    {
+        "value": "Next",
+        "name": "next"
+    },
+    {
+        "value": "Back",
+        "name": "back"
+    },
+    {
+        "value": "Chat",
+        "name": "chat"
+    },
+    {
+        "value": "Client Info",
+        "name": "clientInfo"
+    },
+    {
+        "value": "Phone Number",
+        "name": "phoneNumber"
+    },
+    {
+        "value": "View My Jobs",
+        "name": "viewMyJobs"
+    },
+    {
+        "value": "Done",
+        "name": "doneText"
+    },
+    {
+        "value": "Filter",
+        "name": "filter"
+    },
+    {
+        "value": "Edit",
+        "name": "edit"
+    },
+
+    {
+        "value": "Client Notes:",
+        "name": "clientNotes"
+    },
+    {
+        "value": "Create",
+        "name": "create"
+    },
+    {
+        "value": "Your All Set! Get Started With BeeKee Pro Now! You Can Always Go Back And Edit Your Information By Tapping the Profile Icon In The Top Right Corner.",
+        "name": "proSummaryAlert"
+    },
+    {
+        "value": "Orange Country",
+        "name": "orangeCountry"
+    },
+    {
+        "value": "2 Jobs Completed",
+        "name": "jobsCompleted"
+    },
+    {
+        "value": "5 Star Rating",
+        "name": "fiveStarRatings"
+    },
+    {
+        "value": "1",
+        "name": "one"
+    },
+    {
+        "value": "Status",
+        "name": "status"
+    },
+    {
+        "value": "Update Job (Description Only)",
+        "name": "updateJob"
+    },
+    {
+        "value": "Create/Update Quote",
+        "name": "createUpdateQuote"
+    },
+    {
+        "value": "Create New",
+        "name": "createNew"
+    },
+    {
+        "value": "Quote Details:",
+        "name": "quoteDetails"
+    },
+    {
+        "value": "Previous Quote:",
+        "name": "previousQuote"
+    },
+    {
+        "value": "Provide New Quote Amount:",
+        "name": "provideNewQuoteAmount"
+    },
+    {
+        "value": "Provide A Quote Amount:",
+        "name": "provideAQuoteAmount"
+    },
+    {
+        "value": "Subtotal:",
+        "name": "subTotal"
+    },
+    {
+        "value": "Total:",
+        "name": "total"
+    },
+    {
+        "value": "Start Date :",
+        "name": "startDateColon"
+    },
+    {
+        "value": "End Date :",
+        "name": "endDateColon"
+    },
+    {
+        "value": "Remind Yourself Why This Quote Was Updated!",
+        "name": "whyUpdateQuoteText"
+    },
+    {
+        "value": "this quote is updated because..",
+        "name": "reasonUpdatedQuote"
+    },
+    {
+        "value": "Create/Update Invoice",
+        "name": "createUpdateInvoice"
+    },
+    {
+        "value": "Archive",
+        "name": "archive"
+    },
+    {
+        "value": "Remind Yourself Why This Quote Was Created!",
+        "name": "whyCreateQuoteText"
+    },
+    {
+        "value": "this quote is created because..",
+        "name": "reasonCreateQuote"
+    },
+    {
+        "value": "Invoice Details:",
+        "name": "invoiceDetails"
+    },
+    {
+        "value": "Provide Invoice Title:",
+        "name": "provideInvoiceTitle"
+    },
+    {
+        "value": "Create Invoice #",
+        "name": "createInvoiceHash"
+    },
+    {
+        "value": "Date Submitted",
+        "name": "dateSubmitted"
+    },
+    {
+        "value": "Client Name:",
+        "name": "clientNameColon"
+    },
+    {
+        "value": "Invoice Amount:",
+        "name": "invoiceAmount"
+    },
+    {
+        "value": "Remind Yourself Why This Invoice Was Created!",
+        "name": "remindyourSelfForInvoiceCreate"
+    },
+    {
+        "value": "This invoice was created because..",
+        "name": "reasonForInvoiceCreate"
+    },
+    {
+        "value": "Previous Invoice:",
+        "name": "previousInvoice"
+    },
+    {
+        "value": "Provide New Invoice Amount:",
+        "name": "provideNewInvoiceAmount"
+    },
+    {
+        "value": "Change Invoice #",
+        "name": "changeInvoiceHash"
+    },
+    {
+        "value": "Remind Yourself Why This Invoice Was Updated!",
+        "name": "whyUpdateInvoiceText"
+    },
+    {
+        "value": "this invoice is updated because..",
+        "name": "reasonUpdateInvoice"
+    },
+    {
+        "value": "Update",
+        "name": "update"
+    },
+    {
+        "value": "{0} Jobs Completed",
+        "name": "jobCompleted"
+    },
+    {
+        "value": "{0} Star Rating",
+        "name": "starRating"
+    },
+    {
+        "value": "Your New Client Has Been Created! You can View Their Profile by tapping \n \"Go to Dashboard\"",
+        "name": "createClientAlertMessage"
+    },
+    {
+        "value": "Go To Dashboard",
+        "name": "gotoDashboard"
+    },
+    {
+        "value": "Address",
+        "name": "address"
+    },
+    {
+        "value": "Please enter valid Email address",
+        "name": "emailValidation"
+    },
+    {
+        "value": "Please enter all fields",
+        "name": "allfieldValidation"
+    },
+    {
+        "value": "Please enter {0}",
+        "name": "validateField"
+    },
+    {
+        "value": "You Can Archive This Job And BeeKee Will Mark It As Completed. You Can Always Revisit It In Your Archive Folder.",
+        "name": "archiveAlertMessage"
+    },
+    {
+        "value": "End Date Cannot be less than Start Date!",
+        "name": "VendorDateConf"
+    },
+    {
+        "value": "Add Photo",
+        "name": "addPhoto"
+    },
+    {
+        "value": "Remove",
+        "name": "remove"
+    },
+    {
+        "value": "You Are About To Remove This Media. Would You Like To Continue?",
+        "name": "photoVideoAlert"
+    },
+    {
+        "value": "Yes",
+        "name": "yes"
+    },
+    {
+        "value": "No",
+        "name": "no"
+    },
+    {
+        "value": "View My Clients",
+        "name": "viewMyClients"
+    },
+    {
+        "value": "Invite",
+        "name": "invite"
+    },
+    {
+        "value": "Import Contacts",
+        "name": "importContacts"
+    },
+    {
+        "value": "Import Contacts",
+        "name": "exportClientList"
+    },
+    {
+        "value": "Find Jobs And Requests",
+        "name": "findJobsAndRequests"
+    },
+    {
+        "value": "Find Jobs",
+        "name": "findJobs"
+    },
+    {
+        "value": "View Requests",
+        "name": "viewRequests"
+    },
+    {
+        "value": "Create New Quote",
+        "name": "createNewQuote"
+    },
+    {
+        "value": "View Quotes",
+        "name": "viewQuotes"
+    },
+    {
+        "value": "Submitted Quotes",
+        "name": "submittedQuotes"
+    },
+    {
+        "value": "Create New Invoice",
+        "name": "createNewInvoice"
+    },
+    {
+        "value": "View Invoices",
+        "name": "viewInvoices"
+    },
+    {
+        "value": "Pro Summary",
+        "name": "proSummary"
+    },
+    {
+        "value": "Message:",
+        "name": "messageColon"
+    },
+    {
+        "value": "To:",
+        "name": "toTextColon"
+    },
+    {
+        "value": "Search Users",
+        "name": "searchUsers"
+    },
+    {
+        "value": "Close",
+        "name": "close"
+    },
+    {
+        "value": "Photos and Videos of This Project:",
+        "name": "photosAndVideosThisProjects"
+    },
+    {
+        "value": "Search Jobs For...",
+        "name": "searchJobFor"
+    },
+    {
+        "value": "Job Description:",
+        "name": "jobDescription"
+    },
+    {
+        "value": "Show More",
+        "name": "showMore"
+    },
+    {
+        "value": "Job Details:",
+        "name": "jobDetails"
+    },
+    {
+        "value": "Posted On :",
+        "name": "postedOn"
+    },
+    {
+        "value": "Urgency :",
+        "name": "urgency"
+    },
+    {
+        "value": "Timeframe :",
+        "name": "timeframe"
+    },
+    {
+        "value": "Times :",
+        "name": "times"
+    },
+    {
+        "value": "Price Range",
+        "name": "priceRange"
+    },
+    {
+        "value": "Client Is Offering:",
+        "name": "clientIsOffering"
+    },
+    {
+        "value": "Notes :",
+        "name": "notesColon"
+    },
+    {
+        "value": "Location:",
+        "name": "locationWithoutColon"
+    },
+    {
+        "value": "Connect",
+        "name": "connect"
+    },
+    {
+        "value": "Description :",
+        "name": "descriptionwithcolon"
+    },
+    {
+        "value": "My Info",
+        "name": "myInfo"
+    },
+    {
+        "value": "About My Business",
+        "name": "aboutMyBusiness"
+    },
+    {
+        "value": "My Photos and Videos",
+        "name": "myPhotoAndVideo"
+    },
+    {
+        "value": "5-10 Miles",
+        "name": "zeroToTenMiles"
+    },
+    {
+        "value": "25 Miles",
+        "name": "oneOneToTwoZero"
+    },
+    {
+        "value": "30+ Miles",
+        "name": "twentyPlus"
+    },
+    {
+        "value": "Ok",
+        "name": "ok"
+    },
+    {
+        "value": "Client Address",
+        "name": "clientAddress"
+    },
+    {
+        "value": "Business Detail",
+        "name": "businessDetail"
+    },
+    {
+        "value": "Sorry, But We Could Not Find A Invite Code For The Information You Entered.\n\n Would You Like To Continue To The Registration Page Without An Invite Code?",
+        "name": "inviteCodeNotValid"
+    },
+    {
+        "value": "Please enter invite Code",
+        "name": "inviteCodeAlert"
+    },
+    {
+        "value": "No Address to populate",
+        "name": "addressDataAlert"
+    },
+    {
+        "value": "Create Quote",
+        "name": "createQuotes"
+    },
+    {
+        "value": "Place Your Quote and Details to the Customer",
+        "name": "quotesHeader"
+    },
+    {
+        "value": "Quote Amount",
+        "name": "quotesAmount"
+    },
+    {
+        "value": "$",
+        "name": "moneyUnit"
+    },
+    {
+        "value": "Details",
+        "name": "details"
+    },
+    {
+        "value": "Start Date",
+        "name": "estimatedStartDate"
+    },
+    {
+        "value": "End Date",
+        "name": "estimatedEndDate"
+    },
+
+    {
+        "value": "Title Of Service",
+        "name": "titleOfService"
+    },
+    {
+        "value": "Price",
+        "name": "price"
+    },
+    {
+        "value": "Create Invoice",
+        "name": "createInvoice"
+    },
+    {
+        "value": "Quote Info",
+        "name": "quotesInfo"
+    },
+    {
+        "value": "Vendor name",
+        "name": "vendorName"
+    },
+    {
+        "value": "Item",
+        "name": "item"
+    },
+    {
+        "value": "Units",
+        "name": "units"
+    },
+    {
+        "value": "Invoice Number",
+        "name": "invoiceNumber"
+    },
+    {
+        "value": "Invoice Date",
+        "name": "invoiceDate"
+    },
+    {
+        "value": "External Invoice Number",
+        "name": "externalInvoiceNumber"
+    },
+    {
+        "value": "Project Start Date",
+        "name": "projectStartDate"
+    },
+    {
+        "value": "Project End Date",
+        "name": "projectEndDate"
+    },
+    {
+        "value": "Total",
+        "name": "total"
+    },
+    {
+        "value": "Review Invoice",
+        "name": "reviewInvoice"
+    },
+    {
+        "value": "Project Name",
+        "name": "projectName"
+    },
+    {
+        "value": "Amount",
+        "name": "amount"
+    },
+    {
+        "value": "Amount ($)",
+        "name": "amountWithMoneySign"
+    },
+    {
+        "value": "Tax",
+        "name": "tax"
+    },
+    {
+        "value": "Add Items",
+        "name": "addItems"
+    },
+    {
+        "value": "Preview invoice",
+        "name": "previewInvoice"
+    },
+    {
+        "value": "Description",
+        "name": "description"
+    },
+    {
+        "value": "Generate Invoice",
+        "name": "generateInvocie"
+    },
+    {
+        "value": "Paid Date",
+        "name": "paidDate"
+    },
+    {
+        "value": "Client Name",
+        "name": "clientName"
+    },
+    {
+        "value": "Total Amount",
+        "name": "totalAmount"
+    },
+    {
+        "value": "Mark as Paid",
+        "name": "markAsPaid"
+    },
+    {
+        "value": "Credit Card",
+        "name": "creditCard"
+    },
+    {
+        "value": "ACH",
+        "name": "ach"
+    },
+    {
+        "value": "Card Number",
+        "name": "cardNumber"
+    },
+    {
+        "value": "Cvc/Cvv",
+        "name": "cvv"
+    },
+    {
+        "value": "State",
+        "name": "stateField"
+    },
+    {
+        "value": "City",
+        "name": "cityField"
+    },
+    {
+        "value": "Update Payment",
+        "name": "updatePayment"
+    },
+
+    {
+        "value": "123",
+        "name": "cvvNumberEx"
+    },
+    {
+        "value": "Payment type",
+        "name": "paymentType"
+    },
+    {
+        "value": "Select Card Type",
+        "name": "selectCardType"
+    },
+    {
+        "value": "Select Year",
+        "name": "selectYear"
+    },
+    {
+        "value": "Select Month",
+        "name": "selectMonth"
+    },
+    {
+        "value": "Your Name",
+        "name": "yourName"
+    },
+    {
+        "value": "First",
+        "name": "first"
+    },
+    {
+        "value": "Last",
+        "name": "last"
+    },
+    {
+        "value": "1234 5678 9101 1123",
+        "name": "cardNumberEx"
+    },
+    {
+        "value": "Expiration Date",
+        "name": "expirationDate"
+    },
+    {
+        "value": "Account Name",
+        "name": "accountName"
+    },
+    {
+        "value": "Account Number",
+        "name": "accountNumber"
+    },
+    {
+        "value": "Routing Number",
+        "name": "routingNumber"
+    },
+    {
+        "value": "Are you enjoying your BeeKee Pro experience? Pay Now to unlock all the benefits Pro has to offer!",
+        "name": "upgradeToBeeKeeProAlert"
+    },
+    {
+        "value": "Pay Now",
+        "name": "payNow"
+    },
+    {
+        "value": "Upgrade Beekee Pro",
+        "name": "upgradePro"
+    },
+    {
+        "value": "Invoiced",
+        "name": "invoiced"
+    },
+    {
+        "value": "Upload Business Image",
+        "name": "uploadBusinessImage"
+    },
+    {
+        "value": "Business Profile updated successfully",
+        "name": "businessAlert"
+    },
+    {
+        "value": "Prospect Info",
+        "name": "prospectInfo"
+    },
+    {
+        "value": "You don't have any new Leads",
+        "name": "prospectEmptyAlert"
+    },
+    {
+        "value": "You don't have any Quote",
+        "name": "quotesEmptyAlert"
+    },
+    {
+        "value": "You don't have any Invoices",
+        "name": "invocieEmptyAlert"
+    },
+    {
+        "value": "View Submitted Quote",
+        "name": "viewSubmittedQuotes"
+    },
+    {
+        "value": "View Submitted Invoice",
+        "name": "viewSubmittedInvoice"
+    },
+    {
+        "value": "You are not Registered as Professional . Click SignUp to continue.",
+        "name": "accessibleRolesAlert"
+    },
+    {
+        "value": "Invoice marked as paid",
+        "name": "invoicemarkAsPaid"
+    },
+    {
+        "value": "Invoice Submitted Successfully",
+        "name": "invoiceSubmittedSuccessfully"
+    },
+    {
+        "value": "Business Profile updated successfully",
+        "name": "businessProfileAlert"
+    },
+    {
+        "value": "Invoice Amount",
+        "name": "invoiceAmountNew"
+    },
+    {
+        "value": "Accept",
+        "name": "accept"
+    },
+    {
+        "value": "Agreement",
+        "name": "agreement"
+    },
+    {
+        "value": "CopyRight",
+        "name": "copyright"
+    },
+    {
+        "value": "First Name:",
+        "name": "firstnameColon"
+    },
+    {
+        "value": "Last Name:",
+        "name": "lastnameColon"
+    },
+    {
+        "value": "Phone Number:",
+        "name": "phoneNumberColon"
+    },
+    {
+        "value": "Successfully Invited HomeOwner",
+        "name": "invitedHomeOwner"
+    },
+    {
+        "value": "No active communication",
+        "name": "messageEmptyText"
+    },
+    {
+        "value": "success",
+        "name": "success"
+    },
+    {
+        "value": "Invitation sent to your Client",
+        "name": "invitationSent"
+    },
+    {
+        "value": "ACH Info",
+        "name": "ACHInfo"
+    },
+    {
+        "value": "CC Info",
+        "name": "CCInfo"
+    },
+    {
+        "value": "Credit Card Info",
+        "name": "creditCardInfo"
+    },
+    {
+        "value": "Fail to Generate Invoice",
+        "name": "failedToGenerateInvoice"
+    },
+    {
+        "value": "Fail to Mark as Paid Invoice",
+        "name": "failedToMarkInvoice"
+    },
+
+    {
+        "value": "Become a BeeKee Pro",
+        "name": "becomeBeekeePro"
+    },
+
+    {
+        "value": "Buyer",
+        "name": "buyer"
+    },
+    {
+        "value": "Homeowner",
+        "name": "homeOwner"
+    },
+    {
+        "value": "Select Role",
+        "name": "selectRole"
+    },
+    {
+        "value": "Select Main Photo",
+        "name": "selectMainPhoto"
+    },
+    {
+        "value": "Select Sub Photos",
+        "name": "selectSubPhoto"
+    },
+    {
+        "value": "Contact Name",
+        "name": "contactName"
+    },
+    {
+        "value": "Contact Number",
+        "name": "contactNumber"
+    },
+    {
+        "value": "Flyer Heading",
+        "name": "flyerHeading"
+    },
+    {
+        "value": "Compose your description and detail...",
+        "name": "flyerDescription"
+    },
+    {
+        "value": "Save",
+        "name": "save"
+    },
+    {
+        "value": "Submit Invitation",
+        "name": "submitInvitation"
+    },
+    {
+        "value": "Invite Others",
+        "name": "inviteOther"
+    },
+    {
+        "value": "Add/Invite Client",
+        "name": "createOrInvite"
+    },
+    {
+        "value": "Invite Client",
+        "name": "inviteClient"
+    },
+    {
+        "value": "Create Client",
+        "name": "createClient"
+    },
+    {
+        "value": "Select",
+        "name": "select"
+    },
+    {
+        "value": "Invitation sent",
+        "name": "invitationSentBuyer"
+    },
+    {
+        "value": "Invite as",
+        "name": "invitetAs"
+    },
+
+    {
+        "value": "Notes",
+        "name": "notes"
+    },
+    {
+        "value": "Sort",
+        "name": "sort"
+    },
+    {
+        "value": "Pending Client",
+        "name": "pendingClient"
+    },
+    {
+        "value": "Member",
+        "name": "member"
+    },
+    {
+        "value": "Non-member",
+        "name": "nonmember"
+    },
+    {
+        "value": "Sort A to Z",
+        "name": "sortAToZ"
+    },
+    {
+        "value": "Sort Z to A",
+        "name": "sortZToA"
+    },
+    {
+        "value": "Add a Client",
+        "name": "addClient"
+    },
+    {
+        "value": "Add/Invite Homeowner",
+        "name": "addInviteHomeOwner"
+    },
+    {
+        "value": "Add/Invite Buyer",
+        "name": "addInviteBuyer"
+    },
+    {
+        "value": "Current Projects",
+        "name": "currentProject"
+    },
+    {
+        "value": "My Files",
+        "name": "myFiles"
+    },
+    {
+        "value": "Google Drive",
+        "name": "googleDrive"
+    },
+    {
+        "value": "Drop Box",
+        "name": "dropBox"
+    },
+    {
+        "value": "Select E-Flyer From",
+        "name": "selectEflyerFrom"
+    },
+    {
+        "value": "New Flyer",
+        "name": "newFlyer"
+    },
+    {
+        "value": "Archived Flyers",
+        "name": "archivedFlyers"
+    },
+    {
+        "value": "E-Flyer Archive",
+        "name": "eflyerArchive"
+    },
+    {
+        "value": "Date Sent : {0}",
+        "name": "eflyerDateSent"
+    },
+    {
+        "value": "Attach File",
+        "name": "attachFile"
+    },
+    {
+        "value": "Choose From Photo Library",
+        "name": "chooseFromPhotoLibrary"
+    },
+    {
+        "value": "Review Or Add New Client To This E-Flyer",
+        "name": "reviewEflyerHeader"
+    },
+    {
+        "value": "Send",
+        "name": "send"
+    },
+    {
+        "value": "Sent",
+        "name": "sent"
+    },
+    {
+        "value": "Select All",
+        "name": "selectAll"
+    },
+    {
+        "value": "Choose From Client List",
+        "name": "chooseFromClient"
+    },
+    {
+        "value": "Your E-Flyer Has Been Sent!",
+        "name": "eflyerSentMsg"
+    },
+    {
+        "value": "Your E-Flyer Has Been Deleted.",
+        "name": "eflyerDeletedMsg"
+    },
+    {
+        "value": "Are You Sure You Would Like To Delete This E-Flyer?",
+        "name": "eflyerDeletedConfirmMsg"
+    },
+    {
+        "value": "No Thanks",
+        "name": "noThanks"
+    },
+    {
+        "value": "No E-Flyer",
+        "name": "eflyerEmptyAlert"
+    },
+    {
+        "value": "Selecte Status",
+        "name": "selectStatus"
+    },
+    {
+        "value": "User Added to Your Client list",
+        "name": "invitationClient"
+    },
+    {
+        "value": "Please select service provided",
+        "name": "serviceProvidedAlert"
+    },
+    {
+        "value": "Search My Jobs",
+        "name": "searchMyJob"
+    },
+    {
+        "value": "New",
+        "name": "newStatus"
+    },
+    {
+        "value": "Active",
+        "name": "active"
+    },
+    {
+        "value": "Request",
+        "name": "request"
+    },
+    {
+        "value": "Quote",
+        "name": "quote"
+    },
+    {
+        "value": "Closed",
+        "name": "closed"
+    },
+    {
+        "value": "Invoice",
+        "name": "invoice"
+    },
+    {
+        "value": "My Jobs",
+        "name": "myJobs"
+    },
+    {
+        "value": "Rejected",
+        "name": "rejected"
+    },
+    {
+        "value": "Accepted",
+        "name": "accepted"
+    },
+    {
+        "value": "Accepted Quotes",
+        "name": "acceptedQuotes"
+    },
+    {
+        "value": "Rejected Quotes",
+        "name": "rejectedQuotes"
+    },
+    {
+        "value": "The user has rejected your quote for the following reason(s):",
+        "name": "declineQuoteText"
+    },
+    {
+        "value": "Search By Name",
+        "name": "searchByName"
+    },
+    {
+        "value": "Unavailable",
+        "name": "unavailable"
+    },
+    {
+        "value": "Job Radius :",
+        "name": "jobRadius"
+    },
+    {
+        "value": "Availability :",
+        "name": "availability"
+    },
+    {
+        "value": "Quote Amount :",
+        "name": "quoteAmountColon"
+    },
+    {
+        "value": "My Invoices",
+        "name": "myInvoice"
+    },
+    {
+        "value": "My Quotes",
+        "name": "myQuotes"
+    },
+    {
+        "value": "Declined Reason",
+        "name": "declineReason"
+    },
+    {
+        "value": "Client Is Offering :",
+        "name": "clientOffering"
+    },
+    {
+        "value": "Job Leads",
+        "name": "jobLeads"
+    },
+    {
+        "value": "Leads",
+        "name": "leads"
+    },
+    {
+        "value": "Add",
+        "name": "add"
+    },
+    {
+        "value": "Booked",
+        "name": "booked"
+    },
+    {
+        "value": "Cancelled",
+        "name": "cancelled"
+    },
+    {
+        "value": "Available",
+        "name": "available"
+    },
+    {
+        "value": "{0} Miles",
+        "name": "radiusValue"
+    },
+    {
+        "value": "No Data",
+        "name": "noData"
+    }
+]

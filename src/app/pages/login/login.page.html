@@ -1,0 +1,108 @@
+<ion-content class="bg-Landing fixed-bg">
+    <ion-grid>
+        <ion-row>
+            <ion-col float-left>
+                <ion-icon class="back-icon"
+                    routerLink="/"
+                    name="chevron-back-circle-outline"></ion-icon>
+            </ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col text-center
+                size="12">
+                <img class="landing-home-img ion-text-center"
+                    src="assets/images/BeeKeeLogo.png" />
+            </ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col size="12">
+                <ion-item color="none"
+                    lines="none">
+                    <span fixed
+                        routerLink="/forgot-password"
+                        class="pad-top-4"
+                        slot="end"><b>{{appData.forgotPassword}}</b>
+                    </span>
+                </ion-item>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+
+    <form [formGroup]="loginForm"
+        novalidate>
+        <ion-grid>
+            <ion-row>
+                <ion-col size="12">
+                    <ion-item>
+                        <ion-icon class="ion-no-margin mr-3" name="person"
+                            slot="start"></ion-icon>
+                        <ion-input formControlName="username"
+                            clearInput="true"
+                            inputmode="text"
+                            placeholder="{{appData.username}}"
+                            required="true">
+                        </ion-input>
+                        <div *ngIf="(formControls.controls.username.errors && formControls.controls.username.touched)">
+                            <div *ngIf="formControls.controls.username.errors"
+                                class="alertdanger">
+                                <div *ngIf="formControls.controls.username.errors.required">
+                                    {{appData.emailRequired}}</div>
+                                <div *ngIf="formControls.controls.username.errors.invalidEmail">
+                                    {{appData.invalidEmail}}</div>
+                            </div>
+                        </div>
+                    </ion-item>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col size="12">
+                    <ion-item>
+                        <ion-icon class="ion-no-margin mr-3" name="key-outline"
+                            slot="start"></ion-icon>
+                        <ion-input placeholder="{{appData.password}}"
+                            formControlName="password"
+                            [type]="passwordType"
+                            required>
+                        </ion-input>
+                        <ion-icon [name]="passwordIcon"
+                            slot="start"
+                            (click)="togglePasswordVisibility()"
+                            slot="end"></ion-icon>
+                        <div *ngIf="(formControls.controls.password.errors && formControls.controls.password.touched)">
+                            <div *ngIf="formControls.controls.password.errors"
+                                class="alertdanger">
+                                <div *ngIf="formControls.controls.password.errors.required">
+                                    {{appData.passwordRequired}}</div>
+                            </div>
+                        </div>
+                    </ion-item>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col size="12">
+                    <ion-item color="none"
+                        lines="none" (click)="toggleCheckbox()">
+                        <!-- <ion-checkbox class="ion-no-margin margin-right-5"
+                            color="primary"
+                            slot="start"></ion-checkbox> -->
+                        <label class="check-box-circle ion-margin-end" [class]="isUserCredentialSaved ? 'check' : '' "></label>
+                        <ion-label class=""><b>{{appData.saveUsername}}</b></ion-label>
+                    </ion-item>
+                </ion-col>
+            </ion-row>
+            <ion-row class="textCenter">
+                <ion-col size="3"></ion-col>
+                <ion-col size="6">
+                    <ion-button (click)="onLogin()"
+                        text-capitalize="false"
+                        btnsignIn
+                        type="submit"
+                        expand="full" 
+                        [disabled]="!loginForm.valid">{{appData.signIn}}
+                    </ion-button>
+                </ion-col>
+                <ion-col size="3"></ion-col>
+            </ion-row>
+        </ion-grid>
+    </form>
+</ion-content>

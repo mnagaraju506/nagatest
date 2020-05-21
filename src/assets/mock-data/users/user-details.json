@@ -1,0 +1,175 @@
+{
+    "id": "5e456369-3228-4e51-ad79-dc906e1563e8",
+    "docType": "UserProfile",
+    "partitionKey": "5e456369-3228-4e51-ad79-dc906e1563e8",
+    "displayName": "Toplevel1.32 Bdh",
+    "firstName": "Toplevel1.32",
+    "lastName": "Suraz",
+    "roles": [
+        "VENDOR",
+        "BUYER",
+        "SELLER",
+        "MLM"
+    ],
+    "profilePicUrl": "https://homxitdev.blob.core.windows.net/userprofile/5e456369-3228-4e51-ad79-dc906e1563e8.jpg",
+    "contact": {
+        "email": "toplevel1.32@yopmail.com",
+        "phone": "878-788-4888",
+        "dateOfBirth": "0001-01-01T00:00:00",
+        "gender": null
+    },
+    "termsSignedDate": "2019-11-11T06:05:55.360474",
+    "address": {
+        "addressLine": "Manikonda",
+        "city": "New York",
+        "stateProvince": "NV",
+        "county": null,
+        "zipCode5": "89101",
+        "zipCode4": null,
+        "fipsCode": null,
+        "latitude": 38.80261,
+        "longitude": -116.419388,
+        "apt": null
+    },
+    "locale": null,
+    "agentDetail": null,
+    "vendorDetail": {
+        "billingAddress": {
+            "addressLine": "806 river wind ave",
+            "city": "Alafaya",
+            "stateProvince": "FL",
+            "county": null,
+            "zipCode5": "32825",
+            "zipCode4": null,
+            "fipsCode": null,
+            "latitude": 28.53243,
+            "longitude": -81.23532,
+            "apt": ""
+        },
+        "photoUrl": "https://homxitdev.blob.core.windows.net/vendorprofile/5e456369-3228-4e51-ad79-dc906e1563e8.jpg",
+        "businessName": "Construction",
+        "businessProfile": "Test",
+        "hoursOfOperation": [
+            {
+                "dayOfWeek": "Monday",
+                "startTime": "9:00 AM",
+                "endTime": "5:00 PM"
+            },
+            {
+                "dayOfWeek": "Tuesday",
+                "startTime": "9:00 AM",
+                "endTime": "5:00 PM"
+            },
+            {
+                "dayOfWeek": "Wednesday",
+                "startTime": "9:00 AM",
+                "endTime": "5:00 PM"
+            },
+            {
+                "dayOfWeek": "Thursday",
+                "startTime": "9:00 AM",
+                "endTime": "5:00 PM"
+            },
+            {
+                "dayOfWeek": "Friday",
+                "startTime": "9:00 AM",
+                "endTime": "5:00 PM"
+            },
+            {
+                "dayOfWeek": "Saturday",
+                "startTime": "9:00 AM",
+                "endTime": "5:00 PM"
+            },
+            {
+                "dayOfWeek": "Sunday",
+                "startTime": "9:00 AM",
+                "endTime": "5:00 PM"
+            }
+        ],
+        "services": [
+            "Accountants",
+            "    Agent",
+            "    Appliance Repair",
+            "    Appraisers",
+            "    Architect",
+            "    Bankers",
+            "    Bookkeepers",
+            "    Carpentry",
+            "    Carpet & Upholstery Cleaning",
+            "    Construction Services",
+            "    Electrician",
+            "    Electronics/Audio Visual Setup",
+            "    Escrow Officers",
+            "    Exterminator",
+            "    Financial Planners",
+            "    General Contracting",
+            "    Glass/Glazier Repair",
+            "    Gutter & Chimney Sweep",
+            "    Handyman",
+            "    Heating & Cooling Services",
+            "    Home Inspector",
+            "    Home Security",
+            "    Home Staging",
+            "    House Cleaning",
+            "    Insurance Agents",
+            "    Interior Design",
+            "    Landscaping",
+            "    Lawncare",
+            "    Lawyers",
+            "    Money Managers",
+            "    Mortgage Brokers",
+            "    Moving Services",
+            "    Painter",
+            "    Plumbing",
+            "    Pool and Spa Maintenance",
+            "    Property Managers",
+            "    RE Brokers",
+            "    Roof Repair",
+            "    Screen Repair/Replace",
+            "    Solar Specialist",
+            "    Tiling & Flooring Services",
+            "    Title Officers",
+            "    Transaction Coordinators",
+            "    Window Washer"
+        ],
+        "isPaymentDone": false,
+        "paymentDate": "0001-01-01T00:00:00",
+        "sSNORTaxId": null,
+        "name": null,
+        "taxClassification": null,
+        "taxClassificationType": null,
+        "trialExpiryDate": null,
+        "jobRadius": 10
+    },
+    "mLM": {
+        "sSNORTaxId": null,
+        "name": null,
+        "businessName": null,
+        "taxClassification": null,
+        "taxClassificationType": null,
+        "exemptPayeeCode": null,
+        "exemptionFromFACTACode": null,
+        "accountNumbers": null,
+        "requestorNameAndAddress": null,
+        "isPaymentDone": false,
+        "paymentDate": "2019-09-26T10:36:28.6564504Z",
+        "rankCode": "KXP",
+        "trialExpiryDate": null
+    },
+    "sellerDetails": {
+        "isPaymentDone": false,
+        "paymentDate": "0001-01-01T00:00:00",
+        "currentPropertyId": "e4cfb5cd-25a5-425c-8af7-28bef8cbf265",
+        "currentListingId": "1af3d620-4cc9-406d-ae0c-7a4f267cf5e0",
+        "packageType": null,
+        "packagePrice": null
+    },
+    "refereeId": "ed7c3250-3c78-47d8-9207-a175f0ef3b6e",
+    "registrationType": null,
+    "profession": null,
+    "isLoginActive": false,
+    "userType": null,
+    "_etag": "\"0600dc2d-0000-0500-0000-5ebc0dbb0000\"",
+    "dateJoined": null,
+    "rating": 0.0
+}

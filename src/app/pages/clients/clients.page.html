@@ -1,0 +1,25 @@
+<ion-header [translucent]="true">
+    <ion-toolbar class="header-background-color">
+        <ion-buttons slot="start">
+            <ion-menu-button menu="leftMenu"
+                autohide="false">
+                <ion-icon class="icon-white"
+                    name="notifications-outline"></ion-icon>
+            </ion-menu-button>
+        </ion-buttons>
+        <ion-buttons slot="end">
+            <ion-menu-button menu="rightMenu"
+                autohide="false">
+                <ion-icon class="icon-white"
+                    name="person-circle-outline"></ion-icon>
+            </ion-menu-button>
+        </ion-buttons>
+        <ion-title class="ion-text-center">
+            <img class="dashboard-title-img img-BeeKee-circle"
+                (click)="navigateToDashboard()" />
+        </ion-title>
+    </ion-toolbar>
+</ion-header>
+<ion-content>
+    Clients
+</ion-content>

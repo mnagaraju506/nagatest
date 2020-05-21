@@ -1,0 +1,12 @@
+.btnPosition {
+    position: fixed;
+    bottom: 10px;
+}
+.btnWidth150 {
+    width: 150px;
+}
+.btnRed {
+    --background: var(--colorRed);
+    color: #ffffff;
+    text-align: left;
+}
