@@ -1,0 +1,8 @@
+{
+  "name": "BeeKee",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular",
+  "id": "8fc430dc"
+}
